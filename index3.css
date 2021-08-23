@@ -1,0 +1,30 @@
+/*css code*/
+.decode {
+     width: 200px;
+     height: 300px;
+     background-color: cornflowerblue;
+     display: inline-block;
+     margin-left: 40px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     padding: auto;
+     transition: transform 1s;
+     border-radius: 20px 20px 20px 20px;
+}
+
+.decode:hover {
+     background-color: coral;
+     transform: rotate(360deg);
+}
+.text {
+     text-align: center;
+}
+
+.flag {
+     padding-top: 0px;
+     border-radius: 20px 20px 0px 0px;
+}
+
+body {
+     background-color: lightgray;
+}
